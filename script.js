@@ -23,10 +23,10 @@ let computerMove = "";
 
 // Image URL's For Changing Images When Needed
 const images = [                                                                      
-  'url("/Web Dev/learn/images/stoneHand.png")',
-  'url("/Web Dev/learn/images/paperHand.png")',
-  'url("/Web Dev/learn/images/scissorsHand.jpeg")',
-  'url("/Web Dev/learn/images/qm.jpg")'
+  'url("./images/stoneHand.png")',
+  'url("./images/paperHand.png")',
+  'url("./images/scissorsHand.jpeg")',
+  'url("./images/qm.jpg")'
 ];
 
 // Start Button To Start Game
