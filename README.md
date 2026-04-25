@@ -60,7 +60,7 @@ Stone-Paper-Scissors/
 
 ## 📸 Preview
 
-![Web Page Preview](images/preview screenshot.png)
+![hello](images/preview%20screenshot.png)
 
 ---
 
