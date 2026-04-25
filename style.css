@@ -43,32 +43,32 @@ body
 
 .stone
 {
-    background-image: url("/Web Dev/learn/images/stoneHand.png") ;
+    background-image: url("./images/stoneHand.png") ;
     background-size : cover ;
 }
 
 .stone:hover{
-    background-image: url("/Web Dev/learn/images/stone.jpg") ;
+    background-image: url("./images/stone.jpg") ;
 }
 
 .paper
 {
-    background-image: url("/Web Dev/learn/images/paperHand.png") ;
+    background-image: url("./images/paperHand.png") ;
     background-size : contain ;
 }
 
 .paper:hover{
-    background-image: url("/Web Dev/learn/images/paper.png") ;
+    background-image: url("./images/paper.png") ;
 }
 
 .scissors
 {
-    background-image: url("/Web Dev/learn/images/scissorsHand.jpeg") ;
+    background-image: url("./images/scissorsHand.jpeg") ;
     background-size : cover ;
 }
 
 .scissors:hover{
-    background-image: url("/Web Dev/learn/images/scissors.jpg") ;
+    background-image: url("./images/scissors.jpg") ;
 }
 
 .control
@@ -166,7 +166,7 @@ body
     width : 180px ;
     background : green ;
     border-radius : 100% ;
-    background-image: url("/Web Dev/learn/images/qm.jpg") ;
+    background-image: url("./images/qm.jpg") ;
     background-size : contain ;
     margin-bottom : 25px ;
 }
