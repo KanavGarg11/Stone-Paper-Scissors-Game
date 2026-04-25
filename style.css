@@ -1,0 +1,215 @@
+body
+{
+    background : rgb(158, 211, 220) ;
+    padding : 0px ;
+    margin : 0px ;
+}
+
+.heading
+{
+    height : 100px ;
+    background : rgb(202, 97, 128) ;
+    color : rgb(254, 253, 153) ;
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+    font-weight : bold ;
+    font-size : 30px ;
+}
+
+.moves
+{
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+    border-bottom : 2px solid black ;
+}
+
+.move
+{
+    height : 180px ;
+    width : 180px ;
+    background : orange ;
+    margin : 50px ;
+    border-radius : 100% ;
+    transition : all 0.3s ease-in-out ;
+}
+
+.move:hover{
+    height : 200px ;
+    width : 200px ;
+    transition : all 0.3s ease-in-out ;
+}
+
+.stone
+{
+    background-image: url("/Web Dev/learn/images/stoneHand.png") ;
+    background-size : cover ;
+}
+
+.stone:hover{
+    background-image: url("/Web Dev/learn/images/stone.jpg") ;
+}
+
+.paper
+{
+    background-image: url("/Web Dev/learn/images/paperHand.png") ;
+    background-size : contain ;
+}
+
+.paper:hover{
+    background-image: url("/Web Dev/learn/images/paper.png") ;
+}
+
+.scissors
+{
+    background-image: url("/Web Dev/learn/images/scissorsHand.jpeg") ;
+    background-size : cover ;
+}
+
+.scissors:hover{
+    background-image: url("/Web Dev/learn/images/scissors.jpg") ;
+}
+
+.control
+{
+    display : flex ;
+    align-items : center ;
+    justify-content : space-around ;
+    /* border-bottom : 2px solid black ; */
+}
+
+.buttonsSec
+{
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+    flex-direction : column ;
+    gap : 0px ;
+}
+
+#btnText
+{
+    font-weight : bold ;
+    font-size : 20px ;
+}
+
+.buttons
+{
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+    gap : 5px ;
+}
+
+.startBtn
+{
+    background : rgb(254, 253, 153) ;
+    margin-top : 0px ;
+    height : 40px ;
+    width :260px ;
+    font-weight : bold ;
+    font-size : 20px ;
+    color : rgb(168, 26, 69) ;
+    transition : all 0.3s ease-in-out ;
+}
+
+.startBtn:hover
+{
+    background : rgb(255, 253, 106) ;
+    border-radius : 20px ;
+    transition : all 0.3s ease-in-out ;
+}
+
+.resetBtn
+{
+    background : rgb(254, 253, 153) ;
+    height : 40px ;
+    width : 110px ;
+    color : rgb(168, 26, 69) ;
+    font-weight : bold ;
+    font-size : 15px ;
+    transition : all 0.3s ease-in-out ;
+}
+
+.resetBtn:hover{
+    border-radius : 15px ;
+    background : rgb(255, 253, 106) ;
+    transition : all 0.3s ease-in-out ;
+}
+
+.score
+{
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+    flex-direction : column ;
+    color : rgb(168, 26, 69) ;
+    font-weight : bold ;
+    font-size : 25px ;
+    font-family : Arial Black ;
+}
+
+.computerBox
+{
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+    flex-direction : column ;
+    margin-top : 0px ;
+    padding-bottom : 50px ;
+    padding-right : 45px ;
+}
+.computer
+{
+    height : 180px ;
+    width : 180px ;
+    background : green ;
+    border-radius : 100% ;
+    background-image: url("/Web Dev/learn/images/qm.jpg") ;
+    background-size : contain ;
+    margin-bottom : 25px ;
+}
+
+.compText
+{
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+    background : rgb(252, 183, 199) ;
+    height : 30px ;
+    width : 200px ;
+    border-radius :15px ;
+    font-weight : bold ;
+    font-size : 20px ;
+    color : rgb(158, 0, 48) ;
+}
+
+.footer
+{
+    height : 40px ;
+    background : rgb(202, 97, 128) ;
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+    font-weight : bold ;
+    color : rgb(254, 253, 153) ;
+    font-size : 20px ;
+}
+
+/*---------------------------------------------------------*/
+
+#borderGrey
+{
+    border : 12px solid rgb(134, 129, 129) ;
+}
+
+#borderGreen
+{
+    border : 12px solid rgb(15, 107, 15) ;
+}
+
+#borderRed
+{
+    border : 12px solid rgb(200, 24, 24) ;
+}
